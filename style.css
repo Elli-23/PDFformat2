@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;                             
+}
+th {
+    background-color: #ddd;
+}
+input, textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+.buttons {
+    margin-top: 10px;
+    display: flex; justify-content: space-between;
+}
+input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: 30px;
+    margin: 0;
+    background-color: rgb(190, 190, 243);
+}
+textarea {
+    max-width: 960px;
+    max-height: 190px;
+    background-color: rgb(190, 190, 243);
+    resize: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
