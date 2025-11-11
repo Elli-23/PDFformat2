@@ -32,7 +32,7 @@ input {
     background-color: rgb(190, 190, 243);
 }
 textarea {
-    max-width: 960px;
+    max-width: 100%;
     max-height: 190px;
     background-color: rgb(190, 190, 243);
     resize: none;
